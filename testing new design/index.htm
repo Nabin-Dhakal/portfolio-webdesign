@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nabin</title>
+    <link rel="icon" href="logo.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">Na<span>bin</span></div>
+      <div class="menu">
+        <ol>
+          <li><a onclick="home()">Home</a></li>
+          <li><a onclick="about()">About me</a></li>
+          <li><a onclick="projects()">Projects</a></li>
+          <li><a onclick="Contacts()">Contact me</a></li>
+        </ol>
+      </div>
+    </div>
+    <div id="home">
+      <div class="home_text">
+        <div class="static_text">
+          Hi I am Nabin<br />
+          And I am a
+          <span class="animatedtext">
+            <li>Programmer</li>
+          </span>
+        </div>
+      </div>
+    </div>
+    <! this is About >
+    <div id="about">
+      <img
+        src="https://i.postimg.cc/Hx4nChpH/fbavatar-1630400663387-6838396024049256103.png"
+        alt="image"
+      />
+      <h1 class="about_text">
+        I am 20 year old, Bsc csit student studying at Lumbini Ict college. I
+        really enjoy solving problems as well as making things pretty and easy
+        to use. I can't stop learning new things; the more, the better.
+      </h1>
+      <div class="skills">
+        <div>
+          <h1 class="skills-heading">My Skills</h1>
+        </div>
+        <div class="skills-bar">
+          <div class="bar">
+            <div class="info">
+              <span>HTML</span>
+            </div>
+            <div class="progress-line"><span class="html"></span></div>
+            <div class="bar">
+              <div class="info">
+                <span>CSS</span>
+              </div>
+              <div class="progress-line"><span class="css"></span></div>
+              <div class="bar">
+                <div class="info">
+                  <span>C++</span>
+                </div>
+                <div class="progress-line">
+                  <span class="bootstrap"></span>
+                </div>
+                <div class="bar">
+                  <div class="info">
+                    <span>JAVASCRIPT</span>
+                  </div>
+                  <div class="progress-line">
+                    <span class="javascript"></span>
+                  </div>
+                  <div class="bar">
+                    <div class="info">
+                      <span>C Programming</span>
+                    </div>
+                    <div class="progress-line">
+                      <span class="c"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <! this is projects section >
+    <div id="projects">
+      <div class="project-lists">
+        <div class="project1">
+          <h4 class="first header">Portfolio for myself</h4>
+          <br /><a href="http://nabindhakal10.com.np">Link</a>
+        </div>
+        <div class="project2">NOT DONE ANYTHING YET</div>
+        <div class="project3">NOT DONE ANYTHING YET</div>
+        <div class="project4">NOT DONE ANYTHING YET</div>
+      </div>
+    </div>
+
+    <! this is contacts section >
+    <div id="Contacts">
+      <div class="container">
+        <form action="">
+          <label for="Name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="Your Name"
+            placeholder="Your name.."
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email address"
+          />
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="Nepal">Nepal</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

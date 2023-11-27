@@ -1,0 +1,23 @@
+
+							
+socket >> domain, type, protocol			
+
+bind >> fd, sockaddr, addr_length
+
+connect >> fd, sockaddr, addr_length			
+
+listen >> fd, backlog_queue_size			
+
+accept >> fd, sockaddr, socklen_t			
+
+send >> fd, buffer, n byte, flags			
+
+recv >> fd , buffer, n byte, flags			
+
+
+
+
+common attributes			function
+fd					connect, bind, listen, accept, send, recv
+sockaddr				connect, bind, accept
+buffer					send, recv
